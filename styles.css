@@ -377,6 +377,68 @@ a {
     font-size: 0.9rem;
 }
 
+.footer-link {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+    color: var(--primary);
+}
+
+/* Privacy Policy Page */
+.policy-page {
+    padding: 10rem 0 6rem;
+    min-height: 80vh;
+}
+
+.policy-page h1 {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.03em;
+}
+
+.policy-effective {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 3rem;
+}
+
+.policy-intro {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.8;
+    margin-bottom: 3rem;
+    max-width: 800px;
+}
+
+.policy-section {
+    margin-bottom: 2.5rem;
+    max-width: 800px;
+}
+
+.policy-section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.02em;
+}
+
+.policy-section p {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.policy-email {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.policy-email:hover {
+    text-decoration: underline;
+}
+
 /* Responsive */
 @media (max-width: 968px) {
     .features-grid {
